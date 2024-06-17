@@ -33,13 +33,16 @@ Skrypt testuje następujące endpointy z JSONPlaceholder:
 
 ## Wyniki
 Wyniki testów są wyświetlane w terminalu w formie:
-```Test 1: PASSED
+```sh
+Test 1: PASSED
 Test 2: PASSED
-Test 3: FAILED```
+Test 3: FAILED
+```
 
 ### Instalacja zależności
 ```sh
 make install
 make test
 make run
-make api-test```
+make api-test
+```
