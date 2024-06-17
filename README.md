@@ -1,7 +1,7 @@
 # Automatyzacja testów API z wykorzystaniem curl
 
 ## Opis
-1. Skrypt `plik.py` automatyzuje testowanie endpointów API przy użyciu curl. Wysyła żądania HTTP GET do wybranej publicznej API, sprawdza status odpowiedzi HTTP i parsuje odpowiedzi JSON w celu weryfikacji obecności kluczowych elementów.
+1. Skrypt `plik.py` automatyzuje testowanie endpointów API przy użyciu curl. Wysyła żądania HTTP GET do JSONPlaceholder API, sprawdza status odpowiedzi HTTP i parsuje odpowiedzi JSON w celu weryfikacji obecności kluczowych elementów.
 2. Prosta aplikajca `app.py` z funkcją dodawania dwóch liczb.
 3. Testy jednostkowe dla aplikacji w pliku `app_test.py`
 4. Plik MAkefile, który automatyzuje intalację zależności, uruchamianie testów oraz aplikacji.
@@ -33,9 +33,9 @@ Skrypt testuje następujące endpointy z JSONPlaceholder:
 
 ## Wyniki
 Wyniki testów są wyświetlane w terminalu w formie:
-Test 1: PASSED
+```Test 1: PASSED
 Test 2: PASSED
-Test 3: FAILED
+Test 3: FAILED```
 
 ### Instalacja zależności
 ```sh
