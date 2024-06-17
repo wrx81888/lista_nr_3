@@ -2,9 +2,7 @@ import subprocess
 import json
 
 def send_request(url):
-    # Send a GET request using curl
     result = subprocess.run(['curl', '-s', '-w', '%{http_code}', url], stdout=subprocess.PIPE)
-    # Extract the response body and the HTTP status code
     response_body = result.stdout[:-3].decode('utf-8')
     http_status_code = int(result.stdout[-3:].decode('utf-8'))
     return response_body, http_status_code
@@ -39,7 +37,7 @@ def main():
         },
         {
             'url': 'https://jsonplaceholder.typicode.com/users/1',
-            'keys': ['id', 'name', 'username', 'email']
+            'keys': ['id', 'żeby wyszło FAILED', 'username', 'email']
         }
     ]
 
