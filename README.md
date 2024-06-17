@@ -10,14 +10,14 @@ Skrypt automatyzuje testowanie endpointów API przy użyciu curl. Wysyła żąda
 ## Instalacja
 1. Upewnij się, że masz zainstalowanego Pythona 3.
 2. Upewnij się, że masz zainstalowanego curl.
-3. Pobierz lub sklonuj repozytorium z plikiem `api_test.py`.
+3. Pobierz lub sklonuj repozytorium z plikiem `plik.py`.
 
 ## Użycie
 1. Otwórz terminal.
-2. Przejdź do katalogu z plikiem `api_test.py`.
+2. Przejdź do katalogu z plikiem `plik.py`.
 3. Uruchom skrypt za pomocą polecenia:
     ```sh
-    python api_test.py
+    python plik.py
     ```
 
 ## Testowane Endpointy
